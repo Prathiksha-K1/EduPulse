@@ -1,0 +1,30 @@
+# Python
+backend/venv/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+*.db
+
+# Environment variables & secrets
+.env
+backend/.env
+backend/.env.local
+*.env
+
+# Node & Frontend
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
